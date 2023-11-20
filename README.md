@@ -26,4 +26,16 @@ To run the project, the following libraries are required:
 
 Install the required libraries using:
 ```bash
-pip install pandas scikit-learn
+# Data packages
+import pandas as pd
+import numpy as np
+
+# Machine Learning / Classification packages
+from sklearn.metrics import roc_auc_score
+from sklearn.model_selection import train_test_split
+from sklearn.dummy import DummyClassifier
+
+# Visualization Packages
+from matplotlib import pyplot as plt
+import seaborn as sns
+%matplotlib inline
